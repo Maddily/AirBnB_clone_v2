@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 
 @app.route('/hbnb', strict_slashes=False)
-def display_filters():
+def display_filters_and_places():
     """Displays an HTML page with filters and place listings."""
 
     states = storage.all(State).values()
