@@ -51,7 +51,7 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     max-height: 300px;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 .popover ul {
